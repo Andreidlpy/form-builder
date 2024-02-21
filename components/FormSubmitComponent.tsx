@@ -35,7 +35,7 @@ export const FormSubmitComponent = ({
       return false;
     }
     return true;
-  }, []);
+  }, [content]);
 
   const submitValue = useCallback((key: string, value: string) => {
     formValues.current[key] = value;
